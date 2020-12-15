@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <title>Responsive personal portfolio</title>
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </head>
 
 <body>
@@ -57,22 +57,25 @@
                     <span class="home_profession">Frontend Developer</span>
 
                     <div class="home_social">
-                        <a href="#" class="home_social-link"><i class='bx bxl-linkedin'></i></a>
-                        <a href="#" class="home_social-link"><i class='bx bxl-github'></i></a>
-                        <a href="https://www.facebook.com/priya.koneti.5" class="home_social-link"><i class='bx bxl-facebook'></i></a>
+                        <a href="https://www.linkedin.com/in/priyanka-koneti-9a6a75a2" class="home_social-link"><i
+                                class='bx bxl-linkedin'></i></a>
+                        <!-- <a href="#" class="home_social-link"><i class='bx bxl-github'></i></a>
+                        <a href="" class="home_social-link"><i class='bx bxl-facebook'></i></a>-->
                     </div>
-                    <a download="" href="Priyanka cv.pdf" class="button home_button">Download Resume</a>
+                    <a id="btn" class="button home_button" href="Priyanka cv.pdf" target="_blank"
+                        download="priyanka cv">Download
+                        Resume</a>
                 </div>
             </div>
         </section>
         <!-- ====ABOUT====-->
         <section class="about section" id="about">
-            <span class="section-subtitle">My intro</span>
+            <span class="section-subtitle">My intro!</span>
             <h2 class="section-title">About Me</h2>
 
             <div class="about_container bda-grid">
                 <div class="about_data">
-                    <p class="about_description">I am excited to begin my carrer in Sweden. I have a brief experience in
+                    <p class="about_description">I am excited to begin my career in Sweden. I have a brief experience in
                         website development and testing, and I have knowledge on software life cycle. I have also worked
                         as Android UI developer. I have an education background of
                         master’s in computer sciences and engineering. I have an experience with Laravel platform. I
@@ -92,7 +95,7 @@
                         </div>
                         <div class="about_information-data">
                             <i class='bx bx-phone about_information-icon'></i>
-                            <span>0761569252</span>
+                            <span>+46 761569252</span>
                         </div>
                         <div class="about_information-data">
                             <i class='bx bx-envelope about_information-icon'></i>
@@ -106,7 +109,7 @@
                         <div class="about_information-data">
                             <i class='bx bx-briefcase about_information-icon'></i>
                             <div>
-                                <span class="about_information-subtitle">11 months job and trainee job</span>
+                                <span class="about_information-subtitle">One year</span>
                                 <span class="about_information-subtitle-small">Experience</span>
                             </div>
                         </div>
@@ -114,8 +117,8 @@
                         <div class="about_information-data">
                             <i class='bx bx-book-reader about_information-icon'></i>
                             <div>
-                                <span class="about_information-subtitle">Masters</span>
-                                <span class="about_information-subtitle-small">Computer Science & Engineering</span>
+                                <span class="about_information-subtitle">Computer Science & Engineering</span>
+                                <span class="about_information-subtitle-small">Masters</span>
                             </div>
                         </div>
 
@@ -136,7 +139,7 @@
 
                             <div>
                                 <span class="about_information-subtitle">English</span>
-                                <span class="about_information-subtitle-small">fluent</span>
+                                <span class="about_information-subtitle-small">Fluent</span>
                             </div>
                         </div>
 
@@ -169,7 +172,16 @@
             <h2 class="section-title">My expertise Area</h2>
 
             <div class="skills_container bdskill-grid">
+
                 <div class="skills_content">
+                    <h3 class="skills_subtitle">Areas</h3>
+                    <div class="skills_data">
+                        <span class="skills_name">Software Testing</span>
+                    </div>
+
+                    <div class="skills_data">
+                        <span class="skills_name">Software Development</span>
+                    </div>
                     <h3 class="skills_subtitle">Languages</h3>
 
                     <div class="skills_data">
@@ -411,7 +423,7 @@
 
         <!-- ======Project in Mind==-->
         <section class="project section">
-            <div class="project_container bd-grid">
+            <div class="project_container bdp-grid">
                 <div class="project_data">
                     <h2 class="section-title project_title">Do you have a project in mind</h2>
                     <p class="project_description">If you have a project that you want to carry out, do not hesitate and
@@ -429,19 +441,6 @@
             <h2 class="section-title">Get In Touch</h2>
 
             <div class="contact_container bd-grid">
-                <form action="" class="contact_form">
-                    <div class="contact_inputs">
-                        <input type="text" placeholder="Name" class="contact_input">
-                        <input type="mail" placeholder="Email" class="contact_input">
-                    </div>
-
-                    <input type="text" placeholder="Project" class="contact_input">
-
-                    <textarea name="" id="" cols="" rows="10" placeholder="Message" class="contact_input"></textarea>
-
-                    <input type="submit" value="Send Message" class="button contact_button">
-                </form>
-
                 <div>
                     <div class="contact_info">
                         <h3 class="contact_subtitle">Call me</h3>
@@ -482,6 +481,7 @@
     </footer>
     <!--===Main JS=====-->
     <script src="main.js"></script>
+
 </body>
 
 </html>
